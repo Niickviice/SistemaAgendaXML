@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Agenda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element  name="contacto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="apellido" type="xs:string" />
+              <xs:element name="apellido" type="xs:string" />
+              <xs:element name="direccion" type="xs:string" />
+              <xs:element name="telefono" type="xs:unsignedLong" />
+              <xs:element name="email" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

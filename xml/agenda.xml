@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE agenda SYSTEM "DTDagenda.dtd">
+<!-- xml para almacenar los contactos de la agenda -->
+<agenda>
+    <contacto>
+        <nombre>Daniel</nombre>
+        <apellido>Garduño</apellido>
+        <telefono>5566765545</telefono>
+        <celular>55604322</celular>
+        <correo>hola@hotmail.com</correo>
+        <codigoPostal>02200</codigoPostal>
+        <estado>CMDX</estado>
+        <direccion>av. siempre viva</direccion>
+    </contacto>
+<contacto><nombre>Saul</nombre><apellido>Gonzalez</apellido><telefono>78787878</telefono><celular>01010101</celular><correo>saul@h.com</correo><codigoPostal>01001</codigoPostal><estado>Chiapas</estado><direccion>gustavo a madero lote 32</direccion></contacto><contacto><nombre>Tania</nombre><apellido>Salazar</apellido><telefono>8282828282</telefono><celular>5252525252</celular><correo>tania@u.com</correo><codigoPostal>09299</codigoPostal><estado>Monterrey</estado><direccion>cordoba 5111 avenida coyoacan</direccion></contacto><contacto><nombre>Messi</nombre><apellido>Martinez</apellido><telefono>82341562</telefono><celular>5512141311</celular><correo>messi@i.com</correo><codigoPostal>002211</codigoPostal><estado>Barcelona</estado><direccion>calle hipodromo de las americas </direccion></contacto></agenda>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+  <title>Agregar</title>
+</head>
+<body>
+  <!--Empieza barra de navegación (navbar)-->
+  <header>
+      <nav class="nav">
+          <a class="nav-link" href="/">  Inicio  </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="base">  Crear nuevo contacto  <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_eliminar_contacto">  Eliminar contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_buscar_contacto"> Buscar Contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_modificar_contacto">  Modificar Contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contacto">  Agenda <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </header>
+    <div class="titulo"> <h3>  Agregar un contacto  </h3>  </div><br>  
+  
+   
+    <div class="contenedor_formulario" >
+       
+      <div class="contenido_formulario">
+            
+        {% block content %}
+
+        <table style="widows: 100%">
+            <tr>
+              <th>Nombre:</th>
+              <td>{{ nombre }}</td>
+            </tr>
+            <tr>
+              <th>Apellido:</th>
+              <td>{{ apellido }}</td>
+            </tr>
+            <tr>
+              <th>Telefono</th>
+              <td>{{ telefono }}</td>
+            </tr>
+            <tr>
+                <th>Celular</th>
+                <td>{{ celular }}</td>
+            </tr>
+            <tr>
+                <th>Correo</th>
+                <td>{{ correo }}</td>
+            </tr>
+            <tr>
+                <th>Codigo Postal</th>
+                <td>{{ codigoPostal }}</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>{{ estado }}</td>
+            </tr>
+            <tr>
+                <th>Direccion</th>
+                <td>{{ direccion }}</td>
+            </tr>
+
+          </table>
+          
+          {% endblock %}
+
+    </div>
+  
+  </body>
+  </html>

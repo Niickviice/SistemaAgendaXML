@@ -1,0 +1,170 @@
+/*importando fuente roboto de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*variables para diseño*/
+:root{
+    --coral : #F0584A;
+    --amarillo: #FBA922;
+    --blanco: #fff;
+    --fuente-principal: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente-principal);    
+}
+.nav{
+    background-color: var(--coral);
+    height: 80px;
+    text-align: center;
+}
+.nav-link{
+   color: var(--blanco);
+   font-size: 20px;
+   padding-top: 25px;
+
+}
+/*------------------Parte de la bienvenida ------------------------------------------*/
+.contenido{
+    width: 100vw;
+    height: 90.5vh;
+    border:0px solid;
+    background-color: var(--amarillo);
+  }
+  
+  .contenido .izquierda{
+    width: 30vw;
+    height: 90.5vh;
+    border: 4px solid;
+    margin-left: 0px;
+    float:left;
+  }
+  
+  .izquierda h5{
+    margin-top: 55px;
+    font-family: 'Roboto';
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 100px;
+    color: var(--blanco);
+
+  }
+  
+  
+  .contenido .derecha{
+    width: 69.9vw;
+    height: 90.5vh;
+    border: 1px solid ;
+    margin-right: 1px;
+    float: right;
+  }
+  
+  .img{
+    width:69.9vw;
+    height: 90.2vh;
+    display: inline-block;
+  }
+
+  .boton_1{
+    width: 180px;
+    height: 45px;
+    background-color: var(--coral);
+    border-radius: 50px;
+    color: var(--blanco);
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px 11px;
+    margin: 0 auto;
+
+  }
+
+  .boton_1 a{
+    
+      line-height: 23px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 25px;
+  }
+  
+/*---------------------- formulario ------------------------------*/
+  .contenedor_formulario{
+    width: 700px;
+    height: 380px;
+    border: var(--coral) solid 3px;/*linea del cuadro*/
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 350px;
+
+  }
+  .titulo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 100;/*negritas*/
+
+  }
+
+
+  /*----------------------formulario eliminar---------------------*/
+  .contenedor1_formulario{
+    width: 700px;
+    height: 230px;
+    border: var(--coral) solid 3px;/*linea del cuadro*/
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 350px;
+
+  }
+
+  /*---------------formulario modicar contacto------------------------------*/
+
+  .contenedor2_formulario{
+    width: 700px;
+    height: 300px;
+    border: var(--coral) solid 3px;/*linea del cuadro*/
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 350px;
+
+  }
+   /*---------------formulario Buscar contacto------------------------------*/
+
+   .contenedor3_formulario{
+    width: 700px;
+    height: 220px;
+    border: var(--coral) solid 3px;/*linea del cuadro*/
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 350px;
+
+  }
+/* ------------------------   parte del formulario ---------------------------   */
+  form{
+    padding: 0;
+    }
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+  }
+  
+  .botton_1{
+    padding: 4px 30px;
+    background: var(--coral);
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--blanco);
+    font-size: 20px;
+  }
+
+  .botton_1:hover{
+      cursor: pointer;
+  }
+  

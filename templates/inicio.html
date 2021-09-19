@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+  <title></title>
+</head>
+<body>
+  <!--Empieza barra de navegación (navbar)-->
+  <header>
+      <nav class="nav">
+          <a class="nav-link" href="/">  Inicio  </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="base">  Crear nuevo contacto  <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_eliminar_contacto">  Eliminar contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_buscar_contacto"> Buscar Contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_modificar_contacto">  Modificar Contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="impresion">  Agenda <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </header>
+  <!--Termina barra de navegación (navbar)-->
+
+  <!--Empieza el contendio-->
+    <!--contenido es la caja principal-->
+    <div class="contenido">
+      <div class="izquierda">
+        <br><br><br><br>
+        <h5>Hola bienvenido a tu agenda personal<br> si deseas agreagar un contacto<br> da click en iniciar </h5>
+        <br>
+        
+        
+        <div class="boton_1">
+          <a href="formulario_agregar_contacto">Iniciar</a>
+        </div>
+      </div>
+      <div class="derecha">
+        <div class="imgen">
+          <img class="img" src="{{url_for('static', filename='media/agenda.jpg')}}" alt="imagen de fondo">
+        </div>
+      </div>
+    </div>
+
+  <!--Termina el contenido-->
+</body>
+</html>

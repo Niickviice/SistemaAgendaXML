@@ -1,0 +1,13 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT agenda (contacto+)>
+<!ELEMENT contacto (nombre,apellido,telefono,celular,correo,
+                    codigoPostal,estado,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT celular (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT codigoPostal (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>

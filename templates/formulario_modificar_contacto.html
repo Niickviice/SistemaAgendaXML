@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+  <title>Modificar</title>
+</head>
+<body>
+  <!--Empieza barra de navegación (navbar)-->
+  <header>
+      <nav class="nav">
+          <a class="nav-link" href="/">  Inicio  </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_agregar_contacto">  Crear nuevo contacto  <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_eliminar_contacto">  Eliminar contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_buscar_contacto"> Buscar Contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="formulario_modificar_contacto">  Modificar Contacto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contacto">  Agenda <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </header>
+    <div class="titulo"> <h3>  Modificar un  contacto  </h3>  </div><br>
+    <div class="contenedor2_formulario">
+       
+        < <div class="contenido_formulario">
+            
+          <br><br>
+         <form action="" method="post">
+            <label>Nombre:</label>
+             <input type="text" name="Fnombre" value="" placeholder=" Tania" autofocus required>
+             
+            <label>    Apellido: </label>
+             <input type="text" name="Fapellido" value="" placeholder=" Salazar" autofocus required>
+             <br><br>
+  
+            <label> Telefono: </label>
+             <input type="text" name="Ftelefono" value="" placeholder="  Novena Cerrada" autofocus required>
+             
+  
+            <label> Celular: </label>
+             <input type="text" name="Fcelular" value="" placeholder="  5533272378" autofocus required>
+             <br><br>
+  
+            <label> Email: </label>
+             <input type="text" name="Fcorreo" value="" placeholder="  26361575 " autofocus required>
+     
+  
+            <label> CP: </label>
+             <input type="text" name="FcodigoPostal" value="" placeholder="08100" autofocus required>
+             <br><br><br>
+  
+            <label> Estado: </label>
+              <input type="text" name="Festado" value="" placeholder="CDMX" autofocus required>
+              <br><br><br>
+            
+            <label> dirección: </label>
+              <input type="text" name="Fdireccion" value="" placeholder="av. siempre viva" autofocus required>
+              <br><br><br>
+              
+              
+             <input class="botton_1" type="submit" value="Ingresar">
+         
+  
+         </form>
+            
+
+            </form>
+           </section>
+
+         </div>
+ </div>
